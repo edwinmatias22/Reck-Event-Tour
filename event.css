@@ -1,0 +1,183 @@
+body {
+    background-color: rgb(105, 2, 2);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000000;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: red;
+}
+section{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(197, 2, 2);
+}
+a{
+    text-decoration: none;
+    color: #f7f7f7;
+}
+.container{
+    background-image: url(Team\ photo.jpg); 
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.container p{
+    z-index: 1;
+
+}
+div{
+    font-size: 46px;
+    font-weight: 800;
+    color: rgb(255, 4, 4);
+    
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px
+}
+input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+input[type="submit"]{
+    background-color: rgb(255, 4, 4);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+input[type="submit"]:hover{
+    background-color: rgb(255, 4, 4);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+section{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section p{
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-style: oblique;
+}
+ol{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+ol li{
+    height: 40vh;
+    flex-grow: 1;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+blockquote{
+    max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  flex-direction: row;
+}
+footer{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.team-members{
+    margin-top: 20px;
+    padding: 40px 20px;
+    background-color: rgb(31, 18, 39);
+    border-radius: 25px;
+}
+.team-member{
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    border: black 1px solid;
+    max-width: 500px;
+    display: inline-block;
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(153, 153, 153, 1);
+    -moz-box-shadow: 6px 6px 5px 0px rgba(153, 153, 153, 1);
+    box-shadow: 6px 6px 5px 0px rgba(153, 153, 153, 1);
+    background-color: rgb(0, 0, 0);
+}
+.team-member img{
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.team-member h3{
+    color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 600px) {
+    .event-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="event.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="event.html" class="logo">
+                <img src="onlinelogomaker-010322-1420-7156.png" alt="Reck home page" height="50px" width="50px">
+            </a>
+            <ul>
+                <li><a href="event.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="calendar.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li> <a href="location.html">Location</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>We might read it, we might not.</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    
+</body>
+</html>
